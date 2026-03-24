@@ -1,7 +1,7 @@
 data "terraform_remote_state" "lab1" {
   backend = "remote"
   config = {
-    organization = "mgillespie-avxusecases"
+    organization = "mgillespie-avxusecases" #adding my org
     workspaces = {
       name = "ace-automation-lab1"
     }
